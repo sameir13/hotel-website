@@ -49,7 +49,7 @@ const index = ({ res }) => {
 export default index;
 
 export async function getServerSideProps() {
-  const data = await fetch("https://yammbuffet.vercel.app/api/menu");
+  const data = await fetch("https://hotel-website-teal.vercel.app/api/menu");
   const res = await data.json();
 
   return {
