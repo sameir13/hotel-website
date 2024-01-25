@@ -16,6 +16,18 @@ const Navbar = () => {
       link: "/price",
     },
     {
+      label: "CONTACT",
+      link: "/contact",
+    },
+    {
+      label: "ABOUT",
+      link: "/about-us",
+    },
+    {
+      label: "OPENING HOURS",
+      link: "/opening-hours",
+    },
+    {
       label: "MENU",
       link: "/menu",
     },
@@ -53,8 +65,8 @@ const Navbar = () => {
             ></i>
           </div>
           <div>
-            <h3 className=" text-[#6F5243] font-semibold my-2 text-3xl">
-              YAMM BUFFET
+            <h3 className=" text-[#6F5243] font-semibold my-2 text-3xl  ">
+           SUPREME HOME
             </h3>
           </div>
 
@@ -67,8 +79,8 @@ const Navbar = () => {
           </div>
 
           <div>
-            <Link className=" text-lg" href={"/"}>
-              0232832298
+            <Link className=" text-lg flex items-center gap-3" href={"/"} >
+            <i class='bx bx-phone-call'></i>  01416111708 
             </Link>
           </div>
         </nav>

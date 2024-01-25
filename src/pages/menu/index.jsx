@@ -20,7 +20,7 @@ const index = ({ res }) => {
   return (
     <div>
       {/* Menu Second Section Start Here --------------------------------------- */}
-      <h1 className="text-center my-6 text-2xl font-semibold">XMAS MENU</h1>
+      <h1 className="text-center my-6 text-2xl font-semibold"> MENU</h1>
       <div className="max-w-[1200px] m-auto my-10 px-5 lg:px-6 2xl:px-0">
         {res?.map((v, i) => (
           <Image

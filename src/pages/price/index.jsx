@@ -13,7 +13,7 @@ const index = ({ res }) => {
               <div className="priceContentDiv">
                 <h2>{v.itemName}</h2>
                 <p>{v.desc}</p>
-                <span>{v.price} $</span>
+                <span>{v.price}£</span>
               </div>
             </div>
           ))}

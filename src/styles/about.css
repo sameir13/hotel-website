@@ -1,0 +1,44 @@
+
+#about {
+    padding: 50px 0;
+    background: #ffffff;
+  }
+  
+  .about-wrapper {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 30px;
+  }
+  
+  #about h2 {
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-size: clamp(1.125rem, 0.9792rem + 0.7778vw, 1.5625rem);
+  }
+  
+  #about p {
+    font-size: clamp(0.9375rem, 0.8333rem + 0.5556vw, 1.25rem);
+    color: #2d1e1e;
+  }
+  
+  #about .small {
+    font-size: clamp(0.875rem, 0.75rem + 0.6667vw, 1.25rem);
+    color: #5a3535;
+    font-weight: 600;
+    width: fit-content;
+  }
+  #about .h2{
+    color: #671212;
+  }
+  
+
+
+
+
+  @media (max-width:768px) {
+
+    .about-wrapper {
+        grid-template-columns: 1fr;
+       }
+
+  }

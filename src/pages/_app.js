@@ -1,4 +1,5 @@
 import "@/styles/globals.css";
+import "@/styles/about.css";
 import Format from "@/components/Format";
 import { QueryClientProvider, QueryClient } from "react-query";
 import Context from "@/Context";

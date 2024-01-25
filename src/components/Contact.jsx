@@ -61,41 +61,46 @@ const Contact = () => {
             Drop us a line and we'll get back to you soon!
           </p>
           <h2 className=" text-[rgb(27,27,27)] my-5 font-[16px]">
-            YAMM BUFFET
+            Supreme Home
           </h2>
           <p className=" leading-[1.6] text-[16px] text-[rgb(94,94,94)] my-6">
-            7-9 Whitehall Street Dundee DD1 4AA United Kingdom
+            9 St Margarets Street Bradford-On-Avon Wiltshire BA15 1DA
           </p>
 
           <div className="leading-[1.6] text-[rgb(94,94,94)] my-8 font-[16px]">
-            <h2>01382 227759</h2>
-            <h2>yammbuffet@gmail.com</h2>
+            <h2>01416111708</h2>
+            <h2>Fast Food Restaurant</h2>
+            <h2>Trading Since 2017</h2>
           </div>
 
-          <h2 className="text-[rgb(27,27,27)] my-5 font-[16px]">
-            OPENINGHOURS
-          </h2>
-          <select className=" outline-none leading-[1.6] text-[rgb(94,94,94)] my-2 font-[16px]">
-            <option value="">Open today 12:00 / 22:00</option>
-            <option value="">Tue 12:00 / 22:00</option>
-            <option value="">Wed 12:00 / 22:00</option>
-            <option value="">Thu 12:00 / 22:00</option>
-            <option value="">Fri 12:00 / 22:30</option>
-            <option value="">Sat 12:00 / 22:30</option>
-            <option value="">Sun 12:00 / 22:00</option>
-          </select>
+          <section className=" mt-9 flex gap-2  justify-center  flex-col">
+            <span className=" text-[16px] text-[#2d1e1e] ">
+              {" "}
+              OPENINGHOURS :{" "}
+            </span>
+
+            <select className="border border-gray-200 px-5 py-1 w-[100%] max-w-[300px]  rounded-md">
+              <option value="">Open today 1:00 / 11:00</option>
+              <option value="">Tue 1:00 / 11:00</option>
+              <option value="">Wed 1:00 / 11:00</option>
+              <option value="">Thu 1:00 / 11:00</option>
+              <option value="">Fri 1:00 / 11:30</option>
+              <option value="">Sat 1:00 / 11:30</option>
+              <option value="">Sun 1:00 / 11:00</option>
+            </select>
+          </section>
         </div>
       </div>
       {/* Google Map */}
       <div>
         <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2492.354143997472!2d-2.2542218245441563!3d51.34139817177595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48717fc8d58d7135%3A0xbe573674645bcef2!2s9%20St%20Margaret&#39;s%20St%2C%20Bradford-on-Avon%20BA15%201LG%2C%20UK!5e0!3m2!1sen!2s!4v1706180382628!5m2!1sen!2s"
           width="600"
           height="450"
+          className="w-full"
+          allowfullscreen=""
           loading="lazy"
-          allowFullScreen=""
-          className=" w-full"
-          referrerPolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d4408.971468863356!2d-2.9756963509820324!3d56.45939259341565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x48865ceab7339689%3A0x598e934b39f9181!2s7-9%20Whitehall%20St%2C%20Dundee%20DD1%204AA%2C%20UK!3m2!1d56.459392699999995!2d-2.9705464999999998!5e0!3m2!1sen!2s!4v1706076873013!5m2!1sen!2s"
+          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
     </>
