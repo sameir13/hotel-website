@@ -72,23 +72,6 @@ const Contact = () => {
             <h2>Fast Food Restaurant</h2>
             <h2>Trading Since 2017</h2>
           </div>
-
-          <section className=" mt-9 flex gap-2  justify-center  flex-col">
-            <span className=" text-[16px] text-[#2d1e1e] ">
-              {" "}
-              OPENINGHOURS :{" "}
-            </span>
-
-            <select className="border border-gray-200 px-5 py-1 w-[100%] max-w-[300px]  rounded-md">
-              <option value="">Open today 1:00 / 11:00</option>
-              <option value="">Tue 1:00 / 11:00</option>
-              <option value="">Wed 1:00 / 11:00</option>
-              <option value="">Thu 1:00 / 11:00</option>
-              <option value="">Fri 1:00 / 11:30</option>
-              <option value="">Sat 1:00 / 11:30</option>
-              <option value="">Sun 1:00 / 11:00</option>
-            </select>
-          </section>
         </div>
       </div>
       {/* Google Map */}

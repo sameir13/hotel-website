@@ -4,8 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 const Navbar = () => {
-
-  const router = useRouter()
+  const router = useRouter();
   const navLinks = [
     {
       label: "HOME",
@@ -31,10 +30,6 @@ const Navbar = () => {
       label: "MENU",
       link: "/menu",
     },
-    {
-      label: "GALLERY",
-      link: "/gallery",
-    },
   ];
 
   useEffect(() => {
@@ -51,7 +46,7 @@ const Navbar = () => {
     });
   }, []);
 
-  console.log(router.pathname)
+  console.log(router.pathname);
 
   return (
     <>
@@ -66,21 +61,25 @@ const Navbar = () => {
           </div>
           <div>
             <h3 className=" text-[#6F5243] font-semibold my-2 text-3xl  ">
-           SUPREME HOME
+              SUPREME HOME
             </h3>
           </div>
 
           <div className=" lg:flex gap-4 items-center hidden">
             {navLinks?.map((v, i) => (
-              <Link key={i} href={v.link} className={router.pathname == v.link ? "navlinkRouter" : null}>
+              <Link
+                key={i}
+                href={v.link}
+                className={router.pathname == v.link ? "navlinkRouter" : null}
+              >
                 {v.label}
               </Link>
             ))}
           </div>
 
           <div>
-            <Link className=" text-lg flex items-center gap-3" href={"/"} >
-            <i class='bx bx-phone-call'></i>  01416111708 
+            <Link className=" text-lg flex items-center gap-3" href={"/"}>
+              <i class="bx bx-phone-call"></i> 01416111708
             </Link>
           </div>
         </nav>
